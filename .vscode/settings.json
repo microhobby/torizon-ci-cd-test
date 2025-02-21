@@ -18,6 +18,8 @@
   "tcb.fleetName": "test",
   "tcb.packageName": "pythonConsole1",
   "tcb.version": "3.11.0",
+  "tcb.clientId": "tzn_api_0ec8aebf-fa7c-49d0-95f3-89c7178ba1c1_F4C3zw",
+  "tcb.clientSecret": "secret",
   "torizon.gpuPrefixRC": true,
   "python.defaultInterpreterPath": "./.venv/bin/python3"
 }
