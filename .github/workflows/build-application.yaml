@@ -9,7 +9,7 @@ jobs:
     container:
       image: commontorizon/torizon-dev:next
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Get Host Absolute Workspace Path
         run: |
@@ -65,7 +65,7 @@ jobs:
           ./.vscode/tasks.ps1 run platform-update-fleet
 
       - name: Artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: docker-compose-prod
           path: |
