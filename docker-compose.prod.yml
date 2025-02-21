@@ -1,0 +1,4 @@
+version: "3.9"
+services:
+  python-console-one:
+    image: matheuscastello/python-console-one:v0.0.0

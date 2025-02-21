@@ -1,0 +1,21 @@
+{
+  "torizon_psswd": "torizon",
+  "torizon_login": "torizon",
+  "torizon_ip": "192.168.0.64",
+  "torizon_ssh_port": "22",
+  "host_ip": "192.168.0.10",
+  "torizon_debug_ssh_port": "6502",
+  "torizon_debug_port1": "6512",
+  "torizon_debug_port2": "",
+  "torizon_debug_port3": "",
+  "torizon_gpu": "-vivante",
+  "torizon_arch": "aarch64",
+  "wait_sync": "2",
+  "torizon_run_as": "torizon",
+  "torizon_app_root": "/home/torizon/app",
+  "docker_tag": "v0.0.0",
+  "tcb.packageName": "pythonConsole1",
+  "tcb.version": "3.11.0",
+  "torizon.gpuPrefixRC": true,
+  "python.defaultInterpreterPath": "./.venv/bin/python3"
+}

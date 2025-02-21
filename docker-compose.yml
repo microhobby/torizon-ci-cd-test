@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  python-console-one-debug:
+    build:
+      context: .
+      dockerfile: Dockerfile.debug
+    image: ${LOCAL_REGISTRY}:5002/python-console-one-debug:${TAG}
+    ports:
+      - ${DEBUG_SSH_PORT}:${DEBUG_SSH_PORT}
+      - ${DEBUG_PORT1}:${DEBUG_PORT1}
+
+  python-console-one:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ${DOCKER_LOGIN}/python-console-one:${TAG}
